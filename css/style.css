@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:0 auto;
+}
+
+form1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:0 auto;
+}
+
+form2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:0 auto;
+}
+
+form3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:0 auto;
+}
+
+label {
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
