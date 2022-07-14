@@ -31,3 +31,7 @@ label {
     margin-bottom: 0px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-around;
+}

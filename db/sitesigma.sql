@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 07-Jul-2022 às 16:40
+-- Tempo de geração: 14-Jul-2022 às 17:21
 -- Versão do servidor: 10.4.17-MariaDB
 -- versão do PHP: 7.3.27
 
@@ -64,6 +64,14 @@ CREATE TABLE `produtos` (
   `Categoria` int(11) NOT NULL,
   `Ativo` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `produtos`
+--
+
+INSERT INTO `produtos` (`ProdutoID`, `Nome`, `Descricao`, `Imagem`, `Preco`, `Categoria`, `Ativo`) VALUES
+(0, 'Suricato', 'Descrição', 'capivara-legal.png', 1000, 1, 1),
+(0, 'Suricato', 'Descrição', 'capivara-legal.png', 1000, 1, 1);
 
 --
 -- Índices para tabelas despejadas

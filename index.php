@@ -1,15 +1,22 @@
 <?php
 // include do footer
-include_once './includes/_dados.php';
+include_once './includes/_banco.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
 
 <div class="container">
     <div class= "row mt-5">
+ 
         <h2 class="clear">Promoção</h2>
-            <
+            
     <?php 
+    $sql = "SELECT * FROM categorias WHERE Ativo = 1";
+    $exec = mysqli_query($conn,$sql);
+    $numProdutos = mysqli_num_rows($exec);
+    while ( $dados = mysqli_fetch_assoc($exec) ) {
+        echo '<h1>'.$dados['Nome'].'</h1>';
+    }
     for ($i=0; $i < 3; $i++) { 
 ?>
 
