@@ -30,19 +30,16 @@ echo $msg;
     <label for="txtNome">Nome Completo</label>
     <input type="text" name="txtNome" id="txtNome" required>
 
-    <form1  action="./contato.php" method="post">
     <label for="txtEmail">Email</label>
     <input type="text" name="txtEmail" id="txtEmail" required>
 
-    <form2 action="./contato.php" method="post">
     <label for="txtTelefone">Telefone</label>
     <input type="text" name="txtTelefone" id="txtTelefone" required>
 
-    <form3 action="./contato.php" method="post">
     <label for="txtMensagem">Mensagem</label>
     <input type="text" name="txtMensagem" id="txtMensagem" required>
 
-    <input type="submit" value="Enviar">
+    <input type="submit" style="margin-top: 2.5rem" value="Enviar">
 
 </form>
 
